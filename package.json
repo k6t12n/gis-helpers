@@ -21,6 +21,9 @@
     "dist/",
     "index.js"
   ],
+  "scripts": {
+    "test": "echo \"Info: no test specified\""
+  },
   "devDependencies": {
     "typescript": "^5.2.2"
   }
