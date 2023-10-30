@@ -25,5 +25,11 @@ class GisDistanceHelpers {
             return parseFloat(d.toFixed(2));
         }
     }
+    getLonLat1() {
+        return [this.location1[1], this.location1[0]];
+    }
+    getLonLat2() {
+        return [this.location2[1], this.location2[0]];
+    }
 }
 exports.GisDistanceHelpers = GisDistanceHelpers;
