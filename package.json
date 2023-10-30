@@ -1,8 +1,11 @@
 {
   "name": "@k6t12n/gis-helpers",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "GIS Helpers for calculating gis variables",
   "main": "index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +19,10 @@
     "javascript",
     "gis",
     "map"
+  ],
+  "files": [
+    "dist/",
+    "index.js"
   ],
   "devDependencies": {
     "typescript": "^5.2.2"
