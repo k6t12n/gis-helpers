@@ -31,4 +31,12 @@ export class GisDistanceHelpers {
         
     }
 
+    public getLonLat1() : readonly [number, number] {
+        return [this.location1[1], this.location1[0]]
+    }
+
+    public getLonLat2() : readonly [number, number] {
+        return [this.location2[1], this.location2[0]]
+    }
+
 }
