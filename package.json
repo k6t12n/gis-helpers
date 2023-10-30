@@ -8,6 +8,15 @@
   },
   "author": "K6t12n",
   "license": "MIT",
+  "homepage": "https://github.com/k6t12n/gis-helpers/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/k6t12n/gis-helpers/issues"
+  },
+  "keywords": [
+    "javascript",
+    "gis",
+    "map"
+  ],
   "devDependencies": {
     "typescript": "^5.2.2"
   }
