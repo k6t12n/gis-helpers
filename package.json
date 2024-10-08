@@ -1,6 +1,6 @@
 {
   "name": "@k6t12n/gis-helpers",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "GIS Helpers for calculating gis variables",
   "main": "index.js",
   "engines": {
@@ -22,7 +22,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "echo \"Info: no test specified\""
+    "test": "echo \"Info: no test specified\"",
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
