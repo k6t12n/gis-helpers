@@ -22,7 +22,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "echo \"Info: no test specified\""
+    "test": "echo \"Info: no test specified\"",
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
